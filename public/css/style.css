@@ -1,0 +1,83 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: white;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+}
+.container {
+  max-height:100px;
+  width: 450px;
+  padding: 50px 20px; 
+  background-color: #87ceeb4a;
+  border-radius: 5px;
+  border: solid 1px black;
+  position: relative;
+}
+.btn {
+  padding: 10px 20px; 
+  margin: 0 5px; 
+  font-size: 0.99rem;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  color: #fff;
+  background-color: blue; 
+}
+h1 {
+     font-size: x-large;
+    color: black;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.btn:hover {
+  cursor: pointer; 
+}
+.new-joke-btn {
+  background-color: #FF0000;
+}
+
+.joke-text {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  font-family: monospace;
+}
+span.category, .heading{
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+span.category{
+  text-decoration: underline;
+}
+select#category {
+    width: 70%;
+}
+.rightNote{
+   position: relative; 
+   bottom: 3px; 
+   right: 3px; 
+   text-align:right;
+}
+#leftNote{
+   position: relative; 
+   top: 3px; 
+   left: 3px; 
+   width: 100px; 
+   text-align:left;
+   width: 150px;
+}
+#freeText{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+@media (max-width: 600px) {
+  .container {
+    width: 350px;
+  }
+}

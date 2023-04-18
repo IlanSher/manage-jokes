@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
+  <body>
+    <div class="outer-container">
+      <h1>Chuck Norris jokes</h1>
+      <div class="heading">
+        <input name="searchText" type="text" maxlength="512" id="searchText" class="searchField"
+          placeholder="search..." />
+        <span><button id="generateFreeText" onclick="changeStyle()">Search Free Text</button></span>
+        <div style="padding-top:10px;">
+          <span class="category">Category</span><span>: </span>
+          <select id="category"></select>
+          <span><button id="generate">Search</button></span>
+        </div>
+      </div>
+      <div class="container">
+        <p id="quote">
+        <div class="rightNote">
+          Joke Page
+        </div>
+        </p>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+
+</html>
